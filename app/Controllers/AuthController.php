@@ -4,6 +4,7 @@ class AuthController
 {
     public function register()
     {
+        return "dh";
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $name = trim($_POST['name']);
             $email = trim($_POST['email']);
